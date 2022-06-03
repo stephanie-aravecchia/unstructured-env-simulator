@@ -4,7 +4,7 @@ The package gazebo_unstructured_env generates simulation environments for Gazebo
 
 Assets are implanted following a Poisson Cluster Point Process and can be either trees or geometrical shapes. A random scaling factor is applied on the asset scale and orientation.
 
-<img title="Simu" src="pics/husky-in-simu.png" alt="Simu" width="600">
+<img title="Simu" src="pics/simu-environment.png" alt="Simu" width="600">
 
 ## Example
 
