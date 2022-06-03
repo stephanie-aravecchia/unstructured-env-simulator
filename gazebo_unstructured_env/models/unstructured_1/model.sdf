@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name="unstructured_1">
+    <static>1</static>
+    <link name="link">
+      <kinematic>0</kinematic>
+      <gravity>1</gravity>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+        <uri>model://unstructured_1/meshes/unstructured_1.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <pose frame="">0 0 0 0 0 0</pose>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <friction>
+            <ode>
+              <mu>100.0</mu>
+              <mu2>50.0</mu2>
+              <fdir1>0 0 0</fdir1>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+          </friction>
+        </surface>
+        <laser_retro>0</laser_retro>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://unstructured_1/meshes/unstructured_1.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <pose frame="">0 0 0 0 0 0</pose>
+        <material>
+              <script>
+                <uri>file://Media/materials/scripts/gazebo.material</uri>
+                <name>Gazebo/Grass</name>
+              </script>
+         </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
