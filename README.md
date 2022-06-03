@@ -14,7 +14,7 @@ Link: https://secure.georgiatech-metz.fr/owncloud/index.php/s/NySA2wZxaJa4kqb
 
 The environments should be put here: `models/XP_WORLD_NAME/meshes/`
 
-The trees here: `trees_models`
+The trees here: `trees_models` (The provided trees are generated with https://github.com/dsforza96/tree-gen)
 
 `roslaunch gazebo_unstructured_env world_from_stl.launch xp_name:=XP_WORLD_NAME`
 
