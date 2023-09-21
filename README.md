@@ -28,3 +28,7 @@ Then, a single stl file can be generated with Blender (<=2.79) (example in `blen
 Create a new world with `./create_new_world.sh XP_WORLD_NAME`
 The stl generated with Blender should be `models/XP_WORLD_NAME/meshes/XP_WORLD_NAME.stl`
 
+
+## To add a Husky Robot
+
+To add a husky robot as on the illustration: https://github.com/stephanie-aravecchia/husky-custom.git
